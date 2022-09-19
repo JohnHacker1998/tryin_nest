@@ -6,4 +6,4 @@ async function bootstrap() {
   app.useGlobalPipes(new ValidationPipe())
   await app.listen(7000);
 }
-bootstrap();
+bootstrap()
